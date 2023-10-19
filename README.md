@@ -37,4 +37,4 @@ libfontconfig-dev这个库一定要安装，否则会导致QtCreator显示中文
 
 # * 编译安装QtCreator
 
-安装官方教程一步步来就可以了。https://wiki.qt.io/Building_Qt_Creator_from_Git_on_Ubuntu_22.04
+安装官方教程一步步来就可以了。https://wiki.qt.io/Building_Qt_Creator_from_Git_on_Ubuntu_22.04，如果出现ssl相关的编译错误，可以注释掉src/plugins/CMakeLists.txt里面axivion的编译。
